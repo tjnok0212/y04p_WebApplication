@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+#list table {
+	border-collapse: collapse;
+}
+
+#list table tr td,
+#list table tr th {
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+#list table tr th {
+	background: #f0f0f0;
+}
+
+.id {
+	width: 200px;
+}
+
+.name {
+	width: 200px;
+}
+
+.language {
+	width: 300px;
+}

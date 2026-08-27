@@ -1,0 +1,29 @@
+body {
+	background-color: lightblue;
+	font-size: 30px;
+}
+
+.strong {
+	font-size: 40px;
+	color: blue;
+}
+
+.job {
+	background-color: white;
+	width: 300px;
+	border: 3px solid Blue
+}
+
+.job div{
+	font-size: 20px;
+	text-align: left;
+	margin: 20px;
+	padding: 5px;
+	padding-left: 30px;
+	border: 1px solid #303030;
+}
+
+#programmer {
+	color: white;
+	background-color: blue;
+}

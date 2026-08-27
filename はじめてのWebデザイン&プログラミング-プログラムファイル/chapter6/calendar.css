@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: lightgray;
+}
+
+#title {
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+#next-month:hover,
+#prev-month:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#calendar {
+	width: 100vw;		/* ビューポート幅の100% */
+	height: calc(100vh - 40px);	
+						/* ビューポート高さの100% - 40px */
+	padding: 3px;
+}
+
+.day{					/* 日付の枠部分 */
+	font-size: 20px;
+	width: calc(100%/7 - 6px);  /* 100%/7から6pxを引く */
+	height: calc(100%/6 - 6px); /* 100%/6から6pxを引く */
+	background: white;
+	border: 1px solid gray;	/* 枠線を指定 */
+	border-radius: 10px;
+	margin: 3px;		/* 外側の余白を3pxに指定 */
+	padding: 5px;		/* 内側の余白を5pxに指定 */
+	float: left;		/* 順に左側に配置していく */
+}
+
+.sunday {				/* class="sunday"は赤色*/
+	color: red;
+}
+
+.saturday {				/* class="saturday"は青色 */
+	color: blue;
+}
+
+.other-month {			/* class="other-month"は半透明 */
+	opacity: 0.4;
+}
+
+.schedule-text {		/* class="schedule-text"は小さい文字 */
+	font-size: 8px;
+}

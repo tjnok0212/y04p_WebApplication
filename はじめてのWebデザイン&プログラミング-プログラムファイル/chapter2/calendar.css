@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgray;
+}
+
+.calendar {
+	width: 100vw;				/* ビューポートの幅の100%に指定 */
+	height: 100vh;				/* ビューポートの高さの100%に指定 */
+	padding: 3px;
+}
+
+.calendar div{					/* calendarクラスの中にあるdivを指定 */
+	font-size: 20px;
+	width: calc(100%/7 - 6px); 	/* calendarクラスの100%/7から6pxを引く */
+	height: calc(100%/5 - 6px); /* calendarクラスの100%/5から6pxを引く */
+	background-color: white;
+	border: 1px solid gray;	  /* 枠線を指定 */
+	border-radius: 10px;
+	margin: 3px;				/* 外側の余白を3pxに指定 */
+	padding: 5px;				/* 内側の余白を5pxに指定 */
+	float: left;				/* 順に左側に配置していく */
+}
