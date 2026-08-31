@@ -1,0 +1,21 @@
+* {
+	color: red;
+	background-color: pink;
+}
+
+h1 {
+	color: black;
+}
+
+em {
+	font-size: 25px;
+}
+
+strong {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+hr {
+	border: 5px dashed blue;
+}

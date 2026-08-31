@@ -1,0 +1,25 @@
+body {
+	background-color: #fcc;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto
+}
+
+#container div {
+	float: left;
+	width: 47%;
+	height: 300px;
+	padding: 10px;
+}
+
+#genso {
+	background-color: #0ff;
+	margin-right: 5px;
+}
+
+#sankei {
+	background-color: #0f0;
+	margin-left: 5px;
+}

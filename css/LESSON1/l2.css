@@ -1,0 +1,24 @@
+body {
+	background-color: #7fffd4;
+}
+
+p,
+dt {
+	color: red;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+ul,
+ol {
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-inline-start: 0px;
+}
