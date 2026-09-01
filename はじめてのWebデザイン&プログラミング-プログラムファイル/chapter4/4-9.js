@@ -3,3 +3,4 @@ for (var i=0; i<3; i++) {
 	a = a + i;
 }
 document.write('a = ' + a);
+document.write('i = ' + i);
