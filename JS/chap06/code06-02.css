@@ -1,0 +1,13 @@
+#color {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	background-color: #00f;
+	border: 1px solid black;
+	color: #e0e0e0;
+	text-align: center;
+	line-height: 100px;
+	margin: 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>code06-04</title>
+		<script src="code06-04.js"></script>
+	</head>
+	<body>
+		<form name='form1'>
+			数値を入力して、ボタンを押してください。<br>
+			<input type="text" name="text_a">
+			<input type="text" name="text_b"><br>
+			計算方法：
+			<label><input type="radio" name="keisan" value="足し算" checked> ＋</label>
+			<label><input type="radio" name="keisan" value="引き算"> －</label>
+			<label><input type="radio" name="keisan" value="掛け算"> ×</label>
+			<label><input type="radio" name="keisan" value="割り算"> ÷</label>
+			<label><input type="radio" name="keisan" value="商算">  /</label>
+			<label><input type="radio" name="keisan" value="除算"> ％</label><br>
+			<select name="color">
+				<option value="#000" selected>黒</option>
+				<option value="#f00">赤</option>
+				<option value="#0f0">緑</option>
+				<option value="#00f">青</option>
+				<option value="orange">オレンジ</option>
+			</select>
+			<input type="checkbox" name="big">大きい文字で表示します<br>
+			<br>
+			<input type="button" onclick="calc()" value="計算">
+			<div id="result"></div>
+		</form>
+	</body>
+</html>
