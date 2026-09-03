@@ -1,0 +1,12 @@
+# Object Tree
+- window	: 最上位オブジェクト
+	- document
+		- html
+			- body
+				- h
+				- p
+				- div
+  				- img
+	- console	: console.log("~~~")でコンソール上にログを記入する
+	- location	: ブラウザのアドレス
+ 	- history	: ブラウザの履歴
