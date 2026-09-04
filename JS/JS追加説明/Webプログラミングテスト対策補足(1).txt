@@ -1,0 +1,34 @@
+Webプログラミングテスト対策補足(JS補足)
+
+・let宣言
+・const宣言(dim,declare)
+・console.log()
+・switchのdefaultラベル
+・prompt()
+・textContent
+・substring()
+・slice()
+・Math.floor() Math.ceil() Math.round()
+
+◆ビルトインオブジェクト
+JavScriptのオブジェクトの中でも、特別な位置を持ち、
+すでに用意されているもの。数学的な処理や日付時刻の情報、
+文字列の操作などに使用する。
+
+Math.floor(2.78);
+Math.floor(-2.78);
+Math.ceil(2.78);
+Math.ceil(-2.78);
+Math.round(2.78);
+Math.round(-2.78);
+
+var str = 'こんにちはJavaScript';
+str.substring(2,8);
+str.substring(-2, 8);
+※マイナス値は0に変換
+
+str.slice(2,8);
+str.slice(-8, -2);
+※マイナス値は第1引数がインデックスではなく末尾から数え、第２引数は
+末尾を基準に1ずつさかのぼり実際の引数より1多くさかのぼる。
+末尾まで切り出すには第２引数を省略。

@@ -1,0 +1,15 @@
+Webプログラミングテスト対策補足(2)
+
+◆HTML
+・numberボックス利用例
+・placeholder属性
+
+◆CSS
+・float利用例
+・clear利用例
+・margin,padding利用例
+
+◆JavaScript
+・イベントリスナー利用例
+・getElementById()の引数
+・コンソール出力
